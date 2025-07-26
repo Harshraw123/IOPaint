@@ -1,4 +1,5 @@
 FROM python:3.10-slim
+ENV MODEL_NAME lama-fourier
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
